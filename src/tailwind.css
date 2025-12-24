@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* basic tokens so the UI has the coffee palette if not already present */
+:root{
+  --coffee-50:#fffaf6;
+  --coffee-100:#f8efea;
+  --coffee-200:#e9d9cf;
+  --coffee-500:#6b4f3b;
+  --coffee-700:#3d2b22;
+}
+body { background-color: var(--coffee-50); }
